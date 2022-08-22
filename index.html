@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "CSS/style.css"  >
+    <script src="https://kit.fontawesome.com/ec021be0ff.js" crossorigin="anonymous"></script>
+    <script src = "Javascript/script.js" defer></script>
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="../Page3/index2.html">Experiance</a> </li>
+                <li><a href="../contact/contact.html">Contact</a> </li>
+                <li><a href="#">Projects</a> </li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label" >
+            <span></span>
+        </label>
+    </header>
+    
+    <div class="title">
+        <h1 class="myName">Hello</h1>
+        <div class="picture">
+            <img src= "Resources/headshot.2.PNG" alt="handsome man" class="headshot">
+            <div>
+                 <p>My name is Sean</p>
+                <p class="blurb">I am a front end developer creating responsive, accesible websites and apps</p>
+            </div>
+        </div>
+    </div>
+    <main id="main-container">
+        <section id="introduction">
+            <div class="card welcome">
+                <div class="content">
+                    <div class="front">
+                        <h2>Welcome to my Portfolio</h2>
+                    </div>
+                    <div class="back">
+                        <p>Here you will find the following:</p>
+                            <ul>
+                                <li>Learn more about me</li>
+                                <li>Projects</li>
+                                <li>Skills</li>
+                                <li>Experience</li>
+                                <li>Other creative projects</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card about">
+                <div class="content">
+                    <div class="front">
+                        <h2>About me</h2>
+                    </div>
+                    <div class="back">
+                        <p>Outside of programming I enjoy reading, playing games, and spending time with my family.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="more-intro">
+                <p> I began developing in the winter of 2021 with the intention of changing carreer paths. I may be new to programming but I am  eager to learn and develop my skills. This site is means to showcase my experience and the skills I have learned thus far with projects i've completed shown below.</p>
+            </div>
+            <div class="more-about">
+             <p>I am based out of minneapolis minnesota and married with a 3 and a half month old daughter. Every time I wake up early to learn software development is for them.</p>
+            </div>
+        </section>
+        <section class="my-project-container">
+            <h1 class="section-header">Projects</h1>
+            <div class="Projects">
+                
+                <a class="project-link" href="#" ><button onclick="reveal()" class="ripple-button ripple-button1"><h2>Book Club</h2></button></a>
+                    <div class="img-container">
+                        <img src = "Resources/bookclub.PNG" >
+                    </div>
+                    <a class ="project-link" href="https://seanhaugen.github.io/Company-Home-Page/Company%20home%20page%20project/"><button onclick="reveal()" class="ripple-button ripple-button2" ><h2>Coffee and Tobacco Store</h2></button></a>
+                    <div class="img-container">
+                        <img src = "Resources/tworivers.PNG" >
+                    </div>
+                    <a class ="project-link" href="https://seanhaugen.github.io/JS-game/"><button onclick="reveal()" class="ripple-button ripple-button3"><h2>Simple Game</h2></button></a>
+                    <div class="img-container">
+                        <img src = "Resources/nika-benedictova-1k6Kjg15QW8-unsplash.jpg">
+                    </div>
+                </div>
+        </section>
+        <section class= "my-skills-container">
+            <h1>Skills</h1>
+            <i class="fa-brands fa-html5 fa-8x"></i>
+            <i class="fa-brands fa-css3-alt fa-8x"></i>
+            <i class="fa-brands fa-js fa-8x"></i>
+            <i class="fa-brands fa-git-alt fa-8x"></i>
+        </section>
+        <footer>
+            <h1>Sean Haugen 2022</h1>
+            <h2>contact</h2>
+            <div class="icon-container">
+                <i class="fa-solid fa-envelope fa-4x"></i>
+                <i class="fa-brands fa-instagram fa-4x"></i>
+                <i class="fa-brands fa-github fa-4x"></i>
+            </div>
+        </footer>
+</main>
+</body>
+    
+</html>
